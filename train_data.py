@@ -140,3 +140,4 @@ for epoch in range(num_epochs):
         rmse_val = test_rmse_resnet.get()
     print('epoch : {}, ResNet, test loss: {}, test RMSE: {}'.format(epoch,l_resnet.asnumpy().mean(), test_rmse_resnet.get()))
     #print('-------------------------------------------------------------------------------------------------------------')
+    ##python train_data.py > resultados.txt
